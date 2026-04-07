@@ -18,7 +18,7 @@ Architecture
 The workflow is built using a node-based pipeline (as shown in your diagram):
 
 PDF → Text Splitter → Embeddings → Vector Store → Retriever → LLM → Answer
- Components Explained
+Components Explained
 Recursive Character Text Splitter
 Splits the document into chunks
 Chunk Size: 1000
@@ -43,60 +43,60 @@ Combines:
 Retriever (vector search)
 LLM (answer generation)
 Memory (chat history)
- How It Works
+How It Works
 PDF is loaded and split into chunks
 Each chunk is converted into embeddings
 Embeddings are stored in vector database
 User asks a question
 System retrieves most relevant chunks
 LLM generates answer based on retrieved context
- About the Dataset
+About the Dataset
 
 The chatbot is trained on a research paper covering:
 
- Transparency in AI
- Fairness & Bias Prevention
- Privacy & Data Protection
- Global AI Policies (EU, US, China)
+Transparency in AI
+Fairness & Bias Prevention
+Privacy & Data Protection
+Global AI Policies (EU, US, China)
 
 Key insights:
 
 Ethical AI requires balancing transparency, fairness, and privacy
 Different regions prioritize ethics differently
 Bias mitigation and audits are essential for responsible AI
- Tech Stack
+Tech Stack
 LLM: Mistral AI
 Embeddings: Google Gemini
 Vector Store: In-Memory
 Framework: LangChain / Flow-based builder
 Data Source: PDF Research Paper
- Installation
+Installation
 git clone https://github.com/your-username/rag-chatbot.git
 cd rag-chatbot
 
 Install dependencies:
 
 pip install -r requirements.txt
- Setup
+Setup
 Add API Keys:
 Mistral AI Key
 Google Generative AI Key
 Configure environment variables:
 MISTRAL_API_KEY=your_key
 GOOGLE_API_KEY=your_key
- Run the Project
+Run the Project
 
 Start your workflow (depending on tool used):
 
 npm start
  or
 python app.py
- Example Queries
+Example Queries
 “What are the key principles of AI ethics?”
 “How does the EU approach AI regulation?”
 “What methods reduce bias in AI systems?”
 “Explain fairness in AI”
- Features
+Features
 
  Context-aware responses
  Document-based Q&A
@@ -104,13 +104,13 @@ python app.py
  Ethical AI-focused knowledge
  Fast semantic retrieval
 
- Future Improvements
+Future Improvements
 Add persistent vector database (Pinecone / FAISS)
 Multi-document support
 UI dashboard
 Integration with Power BI
 Real-time document upload
- Contributing
+Contributing
 
 Contributions are welcome!
 
@@ -118,16 +118,17 @@ Fork the repo
 Create a new branch
 Commit changes
 Submit a PR
- License
+License
 
 This project is open-source and available under the MIT License.
 
- Acknowledgements
+Acknowledgements
+
 Research Paper Author: Petar Radanliev
 Mistral AI
 Google Generative AI
 
 If you want, I can also:
- Convert this into a proper GitHub README with badges & images
- Add architecture diagram section
- Or customize it for your internship submission
+Convert this into a proper GitHub README with badges & images
+Add architecture diagram section
+Or customize it for your internship submission
