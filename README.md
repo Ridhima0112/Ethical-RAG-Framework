@@ -44,12 +44,15 @@ Retriever (vector search)
 LLM (answer generation)
 Memory (chat history)
 How It Works
+
 PDF is loaded and split into chunks
 Each chunk is converted into embeddings
 Embeddings are stored in vector database
 User asks a question
 System retrieves most relevant chunks
-LLM generates answer based on retrieved context
+LLM generates answer based on retrieved context 
+![WhatsApp Image 2026-04-07 at 12 02 18 PM](https://github.com/user-attachments/assets/2ba26df9-5ec1-4a93-b068-2e880fb0e550)
+
 About the Dataset
 
 The chatbot is trained on a research paper covering:
@@ -112,23 +115,5 @@ Integration with Power BI
 Real-time document upload
 Contributing
 
-Contributions are welcome!
+Author: Ridhima 
 
-Fork the repo
-Create a new branch
-Commit changes
-Submit a PR
-License
-
-This project is open-source and available under the MIT License.
-
-Acknowledgements
-
-Research Paper Author: Petar Radanliev
-Mistral AI
-Google Generative AI
-
-If you want, I can also:
-Convert this into a proper GitHub README with badges & images
-Add architecture diagram section
-Or customize it for your internship submission
