@@ -51,7 +51,8 @@ Embeddings are stored in vector database
 User asks a question
 System retrieves most relevant chunks
 LLM generates answer based on retrieved context 
-"C:\OneDrive\Desktop\rag.png"
+<img width="1847" height="873" alt="rag" src="https://github.com/user-attachments/assets/8ba72636-29f2-4a37-9e8d-67b6317b0e2b" />
+
 
 About the Dataset
 
